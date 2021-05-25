@@ -1,0 +1,385 @@
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background-color: #c4c4c4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 10%;
+}
+header img{
+    max-width: 64px;
+    margin: 5px 5.5%;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+header div a{
+    margin-left: 48px;
+    margin-right: 32px;
+}
+
+#black{
+    color: black;
+}
+
+#white{
+    color: #ffff;
+    margin-left: 80px;
+    margin-right: 32px;
+}
+
+main{
+    background-color: #B7E4C7;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.menu{
+    font-family:'Nunito', sans-serif;
+    position: fixed;
+    left: 0;
+    width: 16vw;
+    background-color: #B7E4C7;
+    height: 90%;
+}
+#links{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 5px 17% 5px 17%;
+}
+#links li{
+    margin: 10% 0;
+    width: 100%;
+}
+.letra-menor{
+    font-size: 1.3vw;
+}
+
+.letra-maior{
+    font-size: 1.5vw;
+}
+#links li button{
+    width: 100%; 
+    background-color: #1B4332;   
+    color: #fff;
+    height: 42px;
+    font-weight: bold;
+    border-radius: 26px;
+}
+
+#perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 100%;
+}
+#perfil figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+
+}
+#perfil figure img{
+    max-width: 62px;
+}
+#perfil figure figcaption{
+    font-weight: bold;
+}
+#perfil p{
+    margin: 2% 0;
+    text-align: center;
+}
+#perfil div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6% 0;
+}
+#perfil div img{
+    max-width: 25px;
+}
+#perfil button{
+    color: #1B4332;
+    width: 12vw;
+    background-color: #ffff;
+    height: 5%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border-radius: 26px;
+}
+
+.principal{
+    background-color: #D8F3DC;
+    width: 84%;
+    display: flex;
+    justify-content: center;
+    min-height: 50vw;
+    height: 100%;
+}
+.feed{
+    background-color: #fff;
+    width: 50%;
+    margin-top: 2%;
+    border-radius: 23px;
+    height: 100%;
+    min-height: 30vw;
+}
+.postar{
+    margin: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: black;
+    border-bottom-width: 3px;
+    border-bottom-style: solid ;
+}
+.texto{
+    width: 100%;
+    margin: 15px 0px;
+    display: flex;
+    margin-right: 0;
+}
+.enviar{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 2%;
+}
+#icones{
+    display: flex;
+    justify-content: space-around;
+}
+.postar img{
+    max-height: 50px;
+}
+#form-post{
+    display: flex;
+    justify-content: baseline;
+    width: 70%;
+}
+#form-post textarea{
+    font-family:'Nunito', sans-serif;
+    margin-top: 0;
+    width: 100%;
+    border-width: 0;
+}
+#contador{
+    color: rgb(92, 79, 79);
+    font-size: 12px;
+}
+.contador2{
+    color: red;
+    font-weight: bold;
+}
+.postar ul{
+    display: flex;
+}
+.postar ul li{
+    margin-left: 20px;
+}
+.postar button{
+    color: #ffff;
+    width: 20%; 
+    background-color: #1B4332; 
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 26px;
+}
+.postagens{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.postagens li{
+    border-bottom: 1px solid;
+}
+.interacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    margin: 0 8vw;
+}
+.img-interacao{
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.interacao img{
+    max-width: 2vw;
+    margin: 1vw 0;
+}
+.interacao p{
+    text-align: center;
+
+}
+.interacao figure{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    margin-top: 1vw;
+}
+.interacao figure figcaption{
+    text-align: center;
+    margin-left: 0.4vw;
+}
+.conteudo{
+    display: flex;
+    margin: 4% 0 0 5%;
+    width: 38vw;
+}
+.conteudo div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 3.3vw;
+    font-size: 1.1vw;
+    margin-right: 2vw;
+}
+.conteudo div p{
+    text-align: center;
+}
+
+.conteudo-texto{
+    word-break: break-all;
+}
+.invisivel{
+    display: none;
+}
+
+
+@media only screen and (max-width: 740px){
+    .feed{
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+        height: 100%;
+        min-height: 30vw;
+        border-left: 1px solid;
+    }
+    .conteudo-texto{
+        margin-left: 2%;
+    }
+    .conteudo{
+        width: 77vw;
+    }
+    #links li button{
+        height: 5vw;
+        border-radius: 0;
+    }
+    #links{
+        margin: 5px 2% 5px 2%;
+    }
+
+}
+
+@media only screen and (max-width: 530px){
+    header{
+        align-content: initial;
+        justify-content: space-around;
+        height: 10%;
+        padding-bottom: 3px;
+    }
+    header img{
+        max-width: 48px;
+        margin: 10px 5.5%;
+    }
+    main{
+        display: block;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .menu{
+        position:initial;
+        left: initial;
+        width: 100%;
+        height: initial;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid;
+    }
+    #links{
+        flex-direction: column;
+        align-content: initial;
+        margin: 0;
+    }
+    #links li{
+        margin: 5% 0;
+        width: 66vw;
+    }
+    .letra-maior{
+        font-size: 11px;
+    }
+    .letra-menor{
+        font-size: 12px;
+    }
+    #links li button{
+        height: initial;
+        border-radius: 0;
+    }
+    #perfil{
+        height: initial;
+        font-size: 12px;
+        padding: 2px 20px;
+    }
+    #perfil figure img{
+        max-width: 7vw;
+    }
+    #perfil div img{
+        max-width: 22px;
+    }
+    #perfil button{
+        width: 118%;
+        background-color: #ffff;
+        height: 23px;
+        font-size: 12px;
+    }
+    .principal{
+        width: 100%;
+    }
+    .feed{
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+        height: 100%;
+        min-height: 30vw;
+        border-left: 1px solid;
+    }
+    .conteudo{
+        display: flex;
+        margin: 4% 0 0 5%;
+        width: initial;
+    }
+    .conteudo div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 11.3vw;
+        font-size: 11px;
+        margin-right: 2vw;
+    }
+    .img-interacao{
+        width: 9vw;
+        height: 9vw;
+    }
+    .conteudo-texto {
+        margin-left: 7%;
+    }
+    .interacao img{
+        max-width: 5vw;
+    }
+
+}

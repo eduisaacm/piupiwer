@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/svg" href="./imagens/image 2.svg">
+    <title>Piupiwer</title>
+</head>
+<body>
+
+    <header>
+        <img src="./imagens/image 2.svg">
+        <input id="filtrar-amigos" type="text" placeholder="Pesquise seus amigos!">
+        <nav>
+            <a href="#" id="black">Meu perfil</a>
+            <a href="#" id="white">Sair</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="menu">
+            <div>
+                <ul id=links>
+                    <li><button class="letra-maior">Home</button></li>
+                    <li><button href="#" class="letra-maior">Amigos</button></li>
+                    <li><button href="#" class="letra-maior">Mensagens</button></li>
+                    <li><button href="#" class="letra-menor">Configurações</button></li>
+                </ul>
+            </div>
+
+            <div id="perfil">
+                <figure>
+                    <img src="./imagens/image 12.svg" alt="">
+                    <figcaption>
+                        eduisaacm
+                    </figcaption>
+                </figure>
+                <p>José Eduardo</p>
+                <p>557 mil seguidores</p>
+                <div>
+                    <img src="./imagens/like.svg" alt="">
+                    <p>2,3 mi</p>
+                </div>
+                <button>Meu perfil</button>
+            </div>
+        </div>
+
+        <div class="principal">
+            <div class="feed">
+                <div class="postar">
+                    <div class="texto">
+                        <img src="./imagens/image 12.svg" id="img-perfil">
+                        <img src="./imagens/Capturar.png">
+                        <form id="form-post">
+                            <textarea id="piu" name="piu" type="text" placeholder="Dê um piu aos outros passaros!"></textarea>
+                        </form>
+                        <span class="invisivel" id="erro">Número de caracteres inválido!</span>
+                        <p id="contador">0/140</p>
+                    </div>
+                    <div class="enviar">
+                            <ul>
+                                <li>
+                                    <img src="./imagens/imgicone.svg">
+                                </li>
+                                <li>
+                                    <img src="./imagens/audioIcone.svg">
+                                </li>
+                            </ul>
+                            <button id="botao-postar">Postar</button>
+                    </div> 
+                </div>
+
+                <ul class="postagens">
+                    <li>
+                        <div class="conteudo">
+                            <div>
+                                <img src="./imagens/image 12.svg" class="img-interação">
+                                <p class="nome">Nome</p>
+                                <p>Username</p>
+                            </div>
+                            <p class="conteudo-texto">Oi tudo bem?</p>
+                        </div>
+                        <div class="interacao">
+                            <figure>
+                                <img src="./imagens/like.svg" alt="Curtida">
+                                <figcaption>0</figcaption>
+                            </figure>
+                            <img src="./imagens/estrela.svg" alt="Destacar">
+                            <img class="deletar" src="./imagens/lixeira.svg" alt="Deletar">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="./js/principal.js"></script>
+    <script src="./js/forms.js"></script>
+    <script src="./js/interacao.js"></script>
+</body>
+</html>
